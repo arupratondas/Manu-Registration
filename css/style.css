@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;	
+	box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+	display:block;
+}
+body{
+    background-color: #655858;
+}
+header{
+	background-color: #343a40;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+nav{
+	text-align: center;
+}
+nav ul{
+
+}
+nav > ul > li{
+	display:inline-block;
+	vertical-align: middle;
+}
+nav ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+}
+nav ul li a:hover{
+	color: green;
+	background-color: #66da4f;
+}
+nav ul li a img{
+	width: 200px;
+}  
+
+
+.form-section{
+    background-color: #4b4e50;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 750px;
+    overflow: hidden;
+    padding: 100px 100px;
+}
+
+.form-left{
+    float: left;
+    width: 50%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.form-left h1{
+    text-transform: uppercase;
+    font-size: 32px;
+    color: white;
+}
+.form-left h1 span{
+    color: #12b459;
+}
+.form-left p{
+    margin: 15px 0;
+    font-size: 17px;
+    color: white;
+}
+.form-left ul{}
+.form-left ul li{
+    list-style: none;
+    font-size: 17px;
+    margin: 5px 0;
+    color: #fff;
+}
+.form-left ul li a{
+    color: white;
+}
+.far fa-check-circle{}
+
+.button{}
+.button a{
+    color: #fff;
+    background: #67b569;
+    padding: 10px 30px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-table;
+    border-radius: 30px;
+    margin-top: 20px;
+    border: 1px solid #f5f5f587;
+}
+
+.form-right{
+    width: 40%;
+    float: left;
+    padding: 30px;
+    margin-left: 80px;
+}
+
+.form-right-info{
+    background-color: #67b569;
+    border-radius: 5px;
+    padding: 30px 15px;
+    text-align: center;
+    margin-right: 40px;
+}
+
+form h1{
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-size: 32px;
+    color: white;
+}
+form p{
+    margin-bottom: 30px;
+    font-weight: 300;
+    padding: 0px 10px;
+    color: white;
+}
+form input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+}
+
+.register-btn{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px !important;
+    background-color: #3b613c;
+    display: inline-block;
+    margin: 10px;
+    width: 90%;
+
+}
